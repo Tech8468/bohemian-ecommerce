@@ -1,0 +1,194 @@
+html,body{padding: 0; margin: 0; width: 100%; font-family: 'Work Sans', sans-serif;}
+
+/* Product Manager Starts */
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #6666;
+
+}
+.navbar .column1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    padding: 20px;
+}
+.navbar .column1 img{
+    width: 320px;
+    height: 25px;
+    float: left;
+    margin-top: 20px;
+}
+
+.navbar .column2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.navbar .column2 .link{
+    width: 25px;
+    height: 20px;
+    margin-top: 100px;
+    margin: 3px;
+    justify-items: right;
+}
+.container{
+    height: calc(100% - 70px);
+    display: flex;
+    
+}
+.container .leftBar{
+    flex: 2;
+    height: auto;
+    border-right: 2px solid #6666;
+    /* background-color: rgb(184, 178, 178); */
+    /* border: 2px solid red; */
+}
+
+.container .leftBar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .leftBar ul li a{
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+    color: #6666;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+    border-bottom: 1px solid #6666;
+}
+
+.container .leftBar ul li a:hover{
+    background: #6666;
+}
+.container .adminContent{
+    flex: 8;
+    height: 634px;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+
+.container .adminContent .btn a{
+    text-decoration: none;
+}
+
+.container .adminContent .btn .btn-big{
+    width: 100px; height: 50px;     background-color: black;
+    ; color: white; border-radius: 1px; border: 0px; margin: 10px; padding: 20px;
+}
+
+.container .adminContent .table{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.container .adminContent table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 15px;
+}
+
+th, td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+th, td a{
+    text-decoration: none;
+}
+
+.tdImage{
+    width: 30%;
+    height: 40px;
+}
+.edit{
+    color: green;
+}
+
+.delete{
+    color: red;
+}
+
+.publish{
+    color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+    text-decoration: underline;
+}
+
+/* Product Manager Ends */
+
+
+/* Create Product Form Starts */
+
+.container .formContent{
+    flex: 8;
+    height: 634px;
+    padding: 40px 150px 100px;
+    overflow-y: scroll;
+}
+
+
+.container .formContent .formWrapper {
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.container .formContent .formWrapper h2{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.container .formContent .formWrapper form{
+    width: 100%;
+}
+
+.container .formContent .formWrapper input{
+    width: 100%;
+    height: 40px;
+}
+
+.container .formContent .button a{
+    text-decoration: none;
+}
+
+.container .formContent .button .btnBig{
+    width: 100px; height: 50px;
+    background-color: black;
+    color: white; 
+    border-radius: 1px; 
+    border: 0px; 
+    margin: 10px; 
+    padding: 20px;
+}
+.container .formContent .formWrapper .saveBtn{
+    width: 100px; height: 50px;
+    background-color: black;
+    color: white; 
+    border-radius: 1px; 
+    border: 0px; 
+    margin: 10px; 
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+
+/* Create Product Form Ends */

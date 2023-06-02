@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Section - Manage Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="../../css/main.css"> -->
+
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+    <div class="navbar">
+        
+        <div class="column1">
+            <img src="img/logo.webp" alt=""></a>
+        </div>
+        
+        <div class="column2">
+            <a href=""><img class="link" src="img/search btn.jpg" alt=""></a>
+            <a href=""><img class="link" src="img/login btn.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="leftBar">
+            <ul>
+                <li><a href="create.html">Create Product</a></li>
+                <li><a href="manager.html">Manage Product</a></li>
+            </ul>
+        </div>
+        <div class="adminContent">
+            <div class="btn">
+                <a href="create.html" class="btn-big">Add Product</a>
+                <!-- <a href="manager.html" class="btn-big">Manage Product</a> -->
+            </div>
+
+            <div class="table">
+                <h2 class="page-title">Manage Product</h2>
+                <table class="table">
+                    <thead>
+                        <th>SN</th>
+                        <th>Image</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th colspan="2">Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="img/productImage1.jpg" alt="" class="tdImage"></td>
+                            <td>Balloon Sleeve Midi Dress in Dappled Light</td>
+                            <td>Women Gown</td>
+                            <td>$NZ 374.92</td>
+                            <td><a href="" class="edit">Edit</a></td>
+                            <td><a href="" class="delete">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/manageproduct.js"></script>
+</body>
+
+</html>

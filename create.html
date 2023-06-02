@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Section - Manage Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="../../css/main.css"> -->
+
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+    <div class="navbar">
+        
+        <div class="column1">
+            <img src="img/logo.webp" alt=""></a>
+        </div>
+        
+        <div class="column2">
+            <a href=""><img class="link" src="img/search btn.jpg" alt=""></a>
+            <a href=""><img class="link" src="img/login btn.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="leftBar">
+            <ul>
+                <li><a href="create.html">Create Product</a></li>
+                <li><a href="manager.html">Manage Product</a></li>
+            </ul>
+        </div>
+        <div class="formContent">
+            <div class="button">
+                <!-- <a href="create.html" class="btn-big">Add Product</a> -->
+                <a href="manager.html" class="btnBig">Manage Product</a>
+            </div>
+
+            <div class="formWrapper" id="formWrapper">
+                <h2 class="page-title">Create Product</h2>
+                <form action="create.html" method="post">
+                    <label for="" id="imageField">Image</label><br><br>
+                    <input type="file" name="image" id="imageField" /><br><br>
+                    <label for="">Product Name</label><br>
+                    <input type="text" name="productname" id="productNameField" /><br><br>
+                    <label for="">Category</label>
+                    <input type="text" name="category" id="categoryField" /><br><br>
+                    <label for="">Price</label><br>
+                    <input type="text" name="price" id="priceField" /><br><br><br>
+                    <a href="" class="saveBtn" id="saveBtn">Save</a>
+                </form>
+            </div>
+        </div>
+    
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/createproduct.js"></script>
+</body>
+
+</html>
